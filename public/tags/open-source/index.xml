@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open-Source on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/open-source/</link>
+    <description>Recent content in Open-Source on My New Hugo Site</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 21:19:24 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pino Sns Transport</title>
+      <link>http://localhost:1313/posts/pino-sns-transport/</link>
+      <pubDate>Sat, 20 Apr 2024 21:19:24 +0500</pubDate>
+      <guid>http://localhost:1313/posts/pino-sns-transport/</guid>
+      <description>Usage Quick Start All Options Longer Example import pino, { TransportTargetOptions } from &amp;#39;pino&amp;#39;; import type { SnsTransportOptions } from &amp;#39;pino-sns-transport&amp;#39;; const transportTargets: TransportTargetOptions[] = [ { target: &amp;#39;pino-sns-transport&amp;#39;, options: { topic: process.env.TOPIC, } as SnsTransportOptions, level: &amp;#39;warn&amp;#39;, }, ]; const transport = pino.transport({ targets: transportTargets, }); const logger = pino( { /** * Set this to trace or the minimum from the logging * levels of the transports so that all logs are * forwarded to transports, each transport carries its * own level and therefore can decide whether it wants * to log or not */ level: &amp;#39;trace&amp;#39;, }, transport, ) import { SNSClientConfig } from &amp;#34;@aws-sdk/client-sns&amp;#34;; export type LogFilter = { key: string; pattern: RegExp, } export type SnsTransportOptions = { snsClientConfig?</description>
+    </item>
+    <item>
+      <title>Serverless Easy Env</title>
+      <link>http://localhost:1313/posts/serverless-easy-env/</link>
+      <pubDate>Sat, 20 Apr 2024 21:18:58 +0500</pubDate>
+      <guid>http://localhost:1313/posts/serverless-easy-env/</guid>
+      <description>Usage Serverless TS Serverless YAML Resolved YAML import type { AWS } from &amp;#39;@serverless/typescript&amp;#39;; const createServerlessConfiguration: () =&amp;gt; Promise&amp;lt;AWS&amp;gt; = async () =&amp;gt; { return { service: &amp;#39;sample-service&amp;#39;, custom: { &amp;#39;serverless-easy-env&amp;#39;: { envResolutions: { apiKeys: { prod: [&amp;#39;ssm:apiKeyOnSsm&amp;#39;, &amp;#39;ssm:apiKeyOnSsm2&amp;#39;], default: [&amp;#39;env:API_KEY&amp;#39;] }, datadogEnabled: { prod: true, stg: true, dev: false, local: false, }, someValueLikeSecurityGroups: { local: [&amp;#39;random-name&amp;#39;], default: [&amp;#39;ssm:abc&amp;#39;, &amp;#39;ssm:def&amp;#39;] }, }, }, }, provider: { name: &amp;#39;aws&amp;#39;, runtime: &amp;#39;nodejs18.x&amp;#39;, apiGateway: { apiKeys: &amp;#39;${easyenv:apiKeys}&amp;#39; as never, }, vpc: { securityGroupIds: &amp;#39;${easyenv:someValueLikeSecurityGroups}&amp;#39;, } as never, }, plugins: [ &amp;#39;serverless-easy-env&amp;#39;, &amp;#39;serverless-offline&amp;#39;, ], package: { patterns: [&amp;#39;!</description>
+    </item>
+  </channel>
+</rss>

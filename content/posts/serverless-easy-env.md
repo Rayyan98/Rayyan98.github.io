@@ -1,7 +1,6 @@
 +++
 title = 'Serverless Easy Env'
 date = 2024-04-20T21:18:58+05:00
-draft = true
 series = "Serverless"
 tags = ["serverless", "serverless-plugins", "open-source"]
 +++

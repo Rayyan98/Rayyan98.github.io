@@ -1,7 +1,6 @@
 +++
 title = 'Pino Sns Transport'
 date = 2024-04-20T21:19:24+05:00
-draft = true
 series = "Application Monitoring"
 tags = ["pino", "application-monitoring", "open-source"]
 +++

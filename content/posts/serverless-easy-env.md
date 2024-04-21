@@ -3,7 +3,10 @@ title = 'Serverless Easy Env'
 date = 2024-04-20T21:18:58+05:00
 series = "Serverless"
 tags = ["serverless", "serverless-plugins", "open-source"]
+Summary = "random summary"
 +++
+
+Conditionals in serveless are hard.
 
 ## Usage
 

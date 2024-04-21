@@ -8,9 +8,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 # disqusShortname = "yourDisqusShortname"
 
 [params]
-    brand = "ArcticIguana"                      # name of your site - appears in the sidebar
-    # brand_image = "/images/test.jpg"    # path to the image shown in the sidebar
-    description = "Update this description..." # Used as default meta description if not specified in front matter
+    brand = "Tempest"                      # name of your site - appears in the sidebar
+    remote_brand_image = "/cubes.png"    # path to the image shown in the sidebar
+    description = "Meditations of a student of software engineering" # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 
@@ -23,7 +23,6 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     menu = [
         {Name = "About", URL = "/about/", HasChildren = false},
         {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
-        {Name = "Open Source", URL = "/open-source/", HasChildren = false},
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 

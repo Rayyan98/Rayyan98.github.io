@@ -1,6 +1,6 @@
 baseURL = 'https://rayyan98.github.io/'
 languageCode = 'en-us'
-title = 'The Blog'
+title = 'Tempest'
 theme = "poison"
 [taxonomies]
     series = 'series'

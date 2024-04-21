@@ -3,6 +3,7 @@ title = 'Pino Sns Transport'
 date = 2024-04-20T21:19:24+05:00
 series = "Application Monitoring"
 tags = ["pino", "application-monitoring", "open-source"]
+Summary = "random summary 2"
 +++
 
 ## Usage

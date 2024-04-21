@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rayyan98.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'The Blog'
 theme = "poison"
 [taxonomies]
     series = 'series'
